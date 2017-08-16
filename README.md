@@ -7,7 +7,9 @@ It will display icons and text corresponding to each of these, and you can hover
 Made with [Create React App](https://github.com/facebookincubator/create-react-app), the user guide of which is [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
 [Sexual Identity Symbols](https://commons.wikimedia.org/wiki/Sexual_identity_symbols)
+
 [Gender Wiki](http://gender.wikia.com/wiki/Gender_Wiki)
+
 [Pride Flags Explained](https://savvyred.deviantart.com/journal/Pride-Flags-Colors-explained-379547414)
 
 ## Sexuality
