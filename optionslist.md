@@ -19,6 +19,7 @@
   - Omnisexual
   - Skoliosexual/Ceterosexual
   - Asexual
+  - Greysexual/Grey-A
   - Demisexual
   - Sapiosexual
   - Abrosexual/Sexually-Fluid
@@ -35,7 +36,7 @@
 - Autosexual
 - Antisexual
 - Unlabeled
-- Other
+- Other (Blank Text Field)
 
 ## Romantic Orientation
 
@@ -45,45 +46,53 @@
   - Biromantic
   - Panromantic
   - Aromantic
+  - Greyromantic
   - Demiromantic
 - Relationship
-  - Monogamous
-  - Open Relationship
-  - Alternative Relationship
+  - Closed Monogamous
+  - Open Monogamous
   - Polyamorous
   - Non-Monogamous
+  - Alternative Relationship
 - Unlabeled
-- Other
+- Other (Blank Text Field)
 
 ## Gender Identity
 
-- Cisgender
+- Cisgender Identities
+  - Cisgender
   - Cis Man/Male
   - Cis Woman/Female
-- Transgender
+- Transgender Identities
+  -Transgender
   - Trans Man/Male
   - Trans Woman/Female
   - Transmasculine
   - Transfeminine
   - Transsexual
-- Third Sex/Gender
+- Third Gender Identities
+  - Third Gender/Sex
   - Hijra
   - Two Spirit
-- Multiple Genders
+- Multiple Gender Identities
+  - Multiple Genders
   - Bigender
   - Trigender
   - Polygender
   - Pangender
-- Non-Binary
+- Non-Binary Gender Identities
+  - Non-Binary
   - Genderqueer
   - Genderfluid
   - Gender Non-Conforming
+  - Neutrois
   - Agender
+  - Greygender
   - Demigender
 - Intersex
 - Androgynous
 - Unlabeled
-- Other
+- Other (Blank Text Field)
 
 ## Preferred Pronouns
 
@@ -108,4 +117,4 @@ Subject, Object, Possessive, Possessive Pronoun, Reflexive
 - ze/zie, zer/zem, zer/zes, zer/zes, zirself/zemself
 - zhe, zhim, zher, zhers, zhimself
 - No Pronouns/Just My Name (i.e. [Name], [Name], [Name], [Name], [Name])
-- Other
+- Other (Blank Text Field)
