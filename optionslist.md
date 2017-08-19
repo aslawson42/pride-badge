@@ -6,6 +6,8 @@
 
 [Pride Flags Explained](https://savvyred.deviantart.com/journal/Pride-Flags-Colors-explained-379547414)
 
+[Quoices.org Queer Flags and Symbols](http://www.quoices.org/knowledge/queer-flags-symbols/)
+
 ## Sexuality
 
 - Binary Sexuality
@@ -17,15 +19,17 @@
   - Polysexual
   - Pansexual
   - Omnisexual
-  - Skoliosexual/Ceterosexual
+  - Skoliosexual
   - Asexual
   - Greysexual/Grey-A
   - Demisexual
+  - Aceflux
   - Sapiosexual
   - Abrosexual/Sexually-Fluid
+  - Akoisexual
+  - Ambiphilic
   - Androphilic
   - Gynephilic
-  - Ambiphilic
 - Flexible
   - Heteroflexible
   - Homoflexible
@@ -34,6 +38,7 @@
   - Queer
   - Questioning
 - Autosexual
+- Autochorissexual
 - Antisexual
 - Unlabeled
 - Other (Blank Text Field)
@@ -64,7 +69,8 @@
   - Cis Man/Male
   - Cis Woman/Female
 - Transgender Identities
-  -Transgender
+  - Transgender (Flag)
+  - Transgender (Symbol)
   - Trans Man/Male
   - Trans Woman/Female
   - Transmasculine
@@ -118,3 +124,19 @@ Subject, Object, Possessive, Possessive Pronoun, Reflexive
 - zhe, zhim, zher, zhers, zhimself
 - No Pronouns/Just My Name (i.e. [Name], [Name], [Name], [Name], [Name])
 - Other (Blank Text Field)
+
+## Other Identities
+
+- Activist
+- Ally
+- Crossdresser
+- Drag Queen
+- Drag King
+- Gender Bender
+- Postgender
+- Bear
+- Twink
+- Butch Lesbian
+- Lipstick Lesbian
+- BDSM
+- Leather
