@@ -15,6 +15,7 @@
   - Gay
   - Lesbian
   - Bisexual
+  - Biflux
 - Non-Binary Sexuality
   - Polysexual
   - Pansexual
@@ -75,19 +76,22 @@
   - Trans Woman/Female
   - Transmasculine
   - Transfeminine
-  - Transsexual
+  - Intersex
+  - Trans-Intersex
 - Third Gender Identities
-  - Third Gender/Sex
+  - Third Gender
   - Hijra
   - Two Spirit
 - Multiple Gender Identities
-  - Multiple Genders
+  - Multigender
   - Bigender
   - Trigender
   - Polygender
   - Pangender
 - Non-Binary Gender Identities
   - Non-Binary
+  - Androgynous (Flag)
+  - Androgynous (Symbol)
   - Genderqueer
   - Genderfluid
   - Gender Non-Conforming
@@ -95,8 +99,12 @@
   - Agender
   - Greygender
   - Demigender
-- Intersex
-- Androgynous
+  - Demi Man/Male
+  - Demi Woman/Female
+  - Demi Androgynous
+  - Intergender
+  - Necrogender
+  - Xenogender
 - Unlabeled
 - Other (Blank Text Field)
 
@@ -108,6 +116,7 @@ Subject, Object, Possessive, Possessive Pronoun, Reflexive
 - she, her, her, hers, herself
 - they, them, their, theirs, themselves
 - one, one, one's, one's, oneself
+- it, it, its, its, itself
 - ae, aer, aer, aers, aerself
 - E, Em, Eir, Eirs, Emself
 - e/ey, em, eir, eirs, eirself
@@ -140,3 +149,5 @@ Subject, Object, Possessive, Possessive Pronoun, Reflexive
 - Lipstick Lesbian
 - BDSM
 - Leather
+- Rubber
+- Other
