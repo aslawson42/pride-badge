@@ -7,7 +7,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Sidebar />
+        <Sidebar
+          sexualityList={["Straight","Gay","Bisexual"]}
+          romanticList={["Heteroromantic","Homoromantic","Biromantic"]}
+          genderList={["Cisgender","Transgender"]}
+          pronounList={["he/him","she/her","they/them"]}
+          interestList={["Activist","Postgender"]}
+        />
         <Preview />
       </div>
     );
