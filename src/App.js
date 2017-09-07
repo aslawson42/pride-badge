@@ -1,23 +1,24 @@
-import React, { Component } from 'react';
-import './App.css';
-import Sidebar from './components/Sidebar.js';
-import Preview from './components/Preview.js';
+'use strict';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Sidebar
-          sexualityList={["Straight","Gay","Bisexual"]}
-          romanticList={["Heteroromantic","Homoromantic","Biromantic"]}
-          genderList={["Cisgender","Transgender"]}
-          pronounList={["he/him","she/her","they/them"]}
-          interestList={["Activist","Postgender"]}
-        />
-        <Preview />
-      </div>
-    );
+// root Vue instance
+var app = new Vue({
+  el: '#app',
+  data: {
+    sexualityItems: [{
+        name: 'Straight',
+        image: '/img/straight.svg',
+        definition: 'definition of straight'
+      },
+      {
+        name: 'Gay',
+        image: '/img/gay.svg',
+        definition: 'definition of gay'
+      },
+      {
+        name: 'Bisexual',
+        image: '/img/bisexual.svg',
+        definition: 'definition of bisexual'
+      }
+    ]
   }
-}
-
-export default App;
+});

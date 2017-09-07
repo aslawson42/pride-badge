@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pride Badge</title>
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app">
+    <div class="sidebar">
+      <ul>
+        <li>Sexuality</li>
+          <ul>
+            <li v-for='item in sexualityItems'>
+              <img src={{item.image}} /> {{item.name}}
+            </li>
+          </ul>
+        <li>Romantic</li>
+        <li>Gender</li>
+        <li>Preferred Pronouns</li>
+        <li>Interests</li>
+      </ul>
+    </div>
+  </div>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="/src/app.js"></script>
+</body>
+
+</html>
