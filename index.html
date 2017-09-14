@@ -7,24 +7,53 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Pride Badge</title>
   <link href="/css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
 </head>
 
 <body>
   <div id="app">
     <div class="sidebar">
+      <div class="logo">
+        <img src="/img/logo.svg" />
+      </div>
+      <h1>Pride Badge</h1>
+      <h2>Options</h2>
       <ul>
-        <li>Sexuality</li>
-          <ul>
-            <li v-for='item in sexualityItems'>
-              <img src={{item.image}} /> {{item.name}}
-            </li>
-          </ul>
-        <li>Romantic</li>
-        <li>Gender</li>
-        <li>Preferred Pronouns</li>
-        <li>Interests</li>
+        <li>SEXUALITY</li>
+        <ul>
+          <li v-for='item in sexualityItems'>
+            <img src={{item.image}} /> {{item.name}}
+          </li>
+        </ul>
+        <li>ROMANTIC</li>
+        <ul>
+          <li v-for='item in romanticItems'>
+            <img src={{item.image}} /> {{item.name}}
+          </li>
+        </ul>
+        <li>GENDER</li>
+        <ul>
+          <li v-for='item in genderItems'>
+            <img src={{item.image}} /> {{item.name}}
+          </li>
+        </ul>
+        <li>PREFERRED PRONOUNS</li>
+        <ul>
+          <li v-for='item in pronounItems'>
+            <img src={{item.image}} /> {{item.name}}
+          </li>
+        </ul>
+        <li>INTERESTS</li>
+        <ul>
+          <li v-for='item in interestItems'>
+            <img src={{item.image}} /> {{item.name}}
+          </li>
+        </ul>
       </ul>
+      <h2>Download</h2>
+    </div>
+    <div class="preview">
+      <h2>Preview</h2>
     </div>
   </div>
   <script src="https://unpkg.com/vue"></script>

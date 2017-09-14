@@ -1,6 +1,6 @@
 :root {
-  --main-font: 'Open Sans', sans-serif;
-  --title-font: 'Montserrat', sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --title-font: 'Roboto Slab', sans-serif;
 }
 
 p, a, div {
@@ -9,4 +9,27 @@ p, a, div {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--title-font);
+}
+
+.sidebar {
+  background-color: #343745;
+  color: white;
+  position: relative;
+  display: inline-block;
+  width: 240px;
+  max-width: 100%;
+  height: auto;
+  padding: 8px;
+}
+
+.sidebar .logo {
+  width: 48px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.preview {
+  color: black;
+  display: inline-block;
 }
