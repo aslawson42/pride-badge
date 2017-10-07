@@ -11,25 +11,49 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--title-font);
 }
 
+.grid-container {
+  width: 960px;
+  height: auto;
+  margin: 60px auto;
+  display: grid;
+  grid-template-columns: 240px 720px;
+  grid-gap: 0em;
+}
+
 .sidebar {
   background-color: #343745;
   color: white;
   position: relative;
-  display: inline-block;
   width: 240px;
   max-width: 100%;
   height: auto;
-  padding: 8px;
 }
 
-.sidebar .logo {
+.sidebar .sidebar-logo {
   width: 48px;
   max-width: 100%;
   height: auto;
   text-align: center;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+.sidebar .sidebar-title {
+  padding-left: 12px;
+}
+.sidebar .sidebar-options {
+  padding-left: 12px;
+}
+.sidebar .sidebar-download {
+  padding-left: 12px;
 }
 
 .preview {
+  background-color: #FD8DD1;
   color: black;
-  display: inline-block;
+  width: 720px;
+  max-width: 100%;
+  height: auto;
+}
+.preview .preview-area {
+  padding: 12px;
 }

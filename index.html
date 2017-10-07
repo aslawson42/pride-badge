@@ -12,48 +12,58 @@
 
 <body>
   <div id="app">
-    <div class="sidebar">
-      <div class="logo">
-        <img src="/img/logo.svg" />
+    <div class="grid-container">
+      <div class="sidebar">
+        <div class="sidebar-logo">
+          <img src="/img/logo.svg" />
+        </div>
+        <div class="sidebar-title">
+          <h1>Pride Badge</h1>
+        </div>
+        <div class="sidebar-options">
+          <h2>Options</h2>
+          <ul>
+            <li>SEXUALITY</li>
+            <ul>
+              <li v-for='item in sexualityItems'>
+                <img src={{item.image}} /> {{item.name}}
+              </li>
+            </ul>
+            <li>ROMANTIC</li>
+            <ul>
+              <li v-for='item in romanticItems'>
+                <img src={{item.image}} /> {{item.name}}
+              </li>
+            </ul>
+            <li>GENDER</li>
+            <ul>
+              <li v-for='item in genderItems'>
+                <img src={{item.image}} /> {{item.name}}
+              </li>
+            </ul>
+            <li>PREFERRED PRONOUNS</li>
+            <ul>
+              <li v-for='item in pronounItems'>
+                <img src={{item.image}} /> {{item.name}}
+              </li>
+            </ul>
+            <li>INTERESTS</li>
+            <ul>
+              <li v-for='item in interestItems'>
+                <img src={{item.image}} /> {{item.name}}
+              </li>
+            </ul>
+          </ul>
+        </div>
+        <div class="sidebar-download">
+          <h2>Download</h2>
+        </div>
       </div>
-      <h1>Pride Badge</h1>
-      <h2>Options</h2>
-      <ul>
-        <li>SEXUALITY</li>
-        <ul>
-          <li v-for='item in sexualityItems'>
-            <img src={{item.image}} /> {{item.name}}
-          </li>
-        </ul>
-        <li>ROMANTIC</li>
-        <ul>
-          <li v-for='item in romanticItems'>
-            <img src={{item.image}} /> {{item.name}}
-          </li>
-        </ul>
-        <li>GENDER</li>
-        <ul>
-          <li v-for='item in genderItems'>
-            <img src={{item.image}} /> {{item.name}}
-          </li>
-        </ul>
-        <li>PREFERRED PRONOUNS</li>
-        <ul>
-          <li v-for='item in pronounItems'>
-            <img src={{item.image}} /> {{item.name}}
-          </li>
-        </ul>
-        <li>INTERESTS</li>
-        <ul>
-          <li v-for='item in interestItems'>
-            <img src={{item.image}} /> {{item.name}}
-          </li>
-        </ul>
-      </ul>
-      <h2>Download</h2>
-    </div>
-    <div class="preview">
-      <h2>Preview</h2>
+      <div class="preview">
+        <div class="preview-area">
+        <h2>[Preview Area]</h2>
+      </div>
+      </div>
     </div>
   </div>
   <script src="https://unpkg.com/vue"></script>
